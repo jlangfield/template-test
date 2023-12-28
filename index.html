@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Navajo Wisdom Generator</title>
     <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=jdlportfolio.com/">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>ello world</h1>
+    <h1>Navajo Wisdom Generator</h1>
+    <h2>Learn and Share the Wisdom</h2>
+    <div class="quote-container" id="quote-container">
+         <!-- Buttons -->
+         <div class="buttons-container">
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+                <i class="fa-brands fa-square-x-twitter"></i> <h5>Share Wisdom</h5>
+                <button id="new-quote"><i class="fa-regular fa-pen-to-square"></i><h5>New Wisdom</h5></button>
+            </button>
+        </div>
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fa-brands fa-readme"></i>
+            <span id="quote"></span>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+    </div>
+    <p>Remember that these English interpretations are crafted in the spirit of Navajo wisdom and values but they are not specific Navajo quotes. Keep in mind that the beauty and depth of Navajo culture is best appreciated through an understanding of the language and cultural context. <a href="https://navajotraditionalteachings.com/" target="_blank">More ways to learn and share Navajo wisdom</a></p>
     <!-- Script -->
+    <script src="quotes.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
